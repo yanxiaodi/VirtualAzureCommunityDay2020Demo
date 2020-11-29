@@ -1,4 +1,5 @@
 ﻿@namespace TailwindTradersBlazorApp
+@using System.IO
 @inherits LayoutComponentBase
 
 <AntDesign.Pro.Layout.BasicLayout 
@@ -23,6 +24,13 @@
             Name = "welcome",
             Key = "welcome",
             Icon = "smile",
+        },
+        new MenuDataItem
+        {
+            Path = "/product-list",
+            Name = "Products",
+            Key = "products",
+            Icon = "table"
         }
     };
 }

@@ -1,0 +1,47 @@
+﻿@namespace TailwindTradersBlazorApp.Pages
+@page "/product-list"
+@using TailwindTradersBlazorApp.Models
+
+
+<PageContainer Title="Product List">
+    <Breadcrumb>
+        <Breadcrumb>
+            <BreadcrumbItem>Home</BreadcrumbItem>
+            <BreadcrumbItem>Product List</BreadcrumbItem>
+        </Breadcrumb>
+    </Breadcrumb>
+    <ChildContent>
+        <Card>
+            <AntList TItem="Product"
+                     DataSource="products"
+                     ItemLayout="ListItemLayout.Horizontal">
+                <ListItem>
+                    <ListItemMeta Description="@context.Brand.Name">
+                        <TitleTemplate>
+                            @context.Name
+                        </TitleTemplate>
+                    </ListItemMeta>
+                    <div class="listContent">
+                        <div class="listContentItem">
+                            <span>Price: @context.Price</span>
+                            <span>StockUnits: @context.StockUnits</span>
+                        </div>
+                    </div>
+                </ListItem>
+            </AntList>
+
+        </Card>
+    </ChildContent>
+
+</PageContainer>
+
+@code {
+    [Inject] protected HttpClient HttpClient { get; set; }
+
+    private List<Product> products = new List<Product>();
+    protected override async Task OnInitializedAsync()
+    {
+        products = await HttpClient.GetFromJsonAsync<List<Product>>("http://localhost:7071/api/products");
+
+    }
+}
