@@ -1,0 +1,1 @@
+# VirtualAzureCommunityDay2020Demo
