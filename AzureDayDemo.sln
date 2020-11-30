@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailwindTradersApi", "TailwindTradersApi\TailwindTradersApi.csproj", "{4854740C-427C-41A8-9506-129B4321130F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TailwindTradersApi", "TailwindTradersApi\TailwindTradersApi.csproj", "{4854740C-427C-41A8-9506-129B4321130F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TailwindTradersBlazorApp", "TailwindTradersBlazorApp\TailwindTradersBlazorApp.csproj", "{BF2C62B3-30A2-4783-B29A-2A7FEE8A5B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TailwindTraders.Shared", "TailwindTraders.Shared\TailwindTraders.Shared.csproj", "{CAB04838-E3B8-42D6-BF70-F90FEBB65FD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4854740C-427C-41A8-9506-129B4321130F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4854740C-427C-41A8-9506-129B4321130F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4854740C-427C-41A8-9506-129B4321130F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2C62B3-30A2-4783-B29A-2A7FEE8A5B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2C62B3-30A2-4783-B29A-2A7FEE8A5B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2C62B3-30A2-4783-B29A-2A7FEE8A5B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2C62B3-30A2-4783-B29A-2A7FEE8A5B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB04838-E3B8-42D6-BF70-F90FEBB65FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB04838-E3B8-42D6-BF70-F90FEBB65FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB04838-E3B8-42D6-BF70-F90FEBB65FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB04838-E3B8-42D6-BF70-F90FEBB65FD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
