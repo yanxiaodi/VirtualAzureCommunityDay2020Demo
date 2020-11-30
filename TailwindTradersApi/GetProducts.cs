@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TailwindTraders.Shared.Models;
 
 namespace TailwindTradersApi
 {

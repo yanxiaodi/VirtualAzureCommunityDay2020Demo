@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace TailwindTradersApi
+namespace TailwindTraders.Shared.Models
 {
     public class Product
     {
@@ -13,8 +11,5 @@ namespace TailwindTradersApi
         public Brand Brand { get; set; }
     }
 
-    public class Brand
-    {
-        public string Name { get; set; }
-    }
+    
 }
