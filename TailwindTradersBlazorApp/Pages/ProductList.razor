@@ -43,7 +43,7 @@
     private List<Product> _products = new List<Product>();
     protected override async Task OnInitializedAsync()
     {
-        _products = await HttpClient.GetFromJsonAsync<List<Product>>($"{Configuration["FunctionApiUrl"]}/api/products");
+        _products = await HttpClient.GetFromJsonAsync<List<Product>>("/api/products");
 
     }
 }
