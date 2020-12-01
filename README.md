@@ -1,5 +1,6 @@
 # VirtualAzureCommunityDay2020Demo
 
+![diagram](/diagram.png)
 
 ## Fork this repo to your own repo
 
