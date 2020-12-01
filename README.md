@@ -2,6 +2,8 @@
 
 ![diagram](/diagram.png)
 
+![sample](/sample.png)
+
 ## Fork this repo to your own repo
 
 You can fork this repo to your repo. Currently Static Web Apps supports GitHub actions.
